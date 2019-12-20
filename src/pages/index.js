@@ -81,7 +81,7 @@ const IndexPage = () => (
       <div className="splash-div">
         <h1 className="splash1">Johniee</h1>
         <h1 className="splash2">Juiceboxx</h1>
-        <p className="splash3">Fullstack Devv | UX/UI Enthusiast | Guitarist</p>
+        <p className="splash3">Fullstack Dev | UX/UI Enthusiast | Guitarist</p>
 
         <Link
           activeClass="active"

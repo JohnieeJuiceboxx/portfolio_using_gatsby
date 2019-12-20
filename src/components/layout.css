@@ -65,6 +65,23 @@
     transform: translateY(-15px);
   }
 }
+.profile_pic {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 15%;
+  overflow: hidden;
+  border-radius: 50%;
+  align-self: center;
+}
+.about_info {
+  /* max-width: 600px; */
+  flex-basis: 60%;
+  padding-left: 5%;
+}
+/* .about_p {
+  padding-left: 5%;
+} */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
