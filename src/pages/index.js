@@ -81,8 +81,21 @@ const IndexPage = () => (
       <div className="splash-div">
         <h1 className="splash1">Johniee</h1>
         <h1 className="splash2">Juiceboxx</h1>
-        <p className="splash3">Fullstack Dev | UX/UI Enthusiast | Guitarist</p>
-        <Scroller />
+        <p className="splash3">Fullstack Devv | UX/UI Enthusiast | Guitarist</p>
+
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          style={{ marginRight: "20px" }}
+        >
+          <div className="scroller">
+            <Scroller />
+          </div>
+        </Link>
       </div>
 
       {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
