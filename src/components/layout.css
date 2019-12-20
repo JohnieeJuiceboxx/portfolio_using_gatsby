@@ -46,7 +46,7 @@
   position: relative;
   font-family: Helvetica Neue;
   letter-spacing: 4px;
-  top: 50px;
+  top: 5em;
   cursor: pointer;
   animation: bounce 2s infinite;
 }
@@ -65,14 +65,25 @@
     transform: translateY(-15px);
   }
 }
+.name {
+  color: #fd2d4d;
+  margin-bottom: 0;
+}
+.noun {
+  color: #61d3d9;
+}
 .profile_pic {
   width: 300px;
   height: 300px;
-  position: relative;
-  top: 15%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fd2d4d;
   overflow: hidden;
   border-radius: 50%;
-  align-self: center;
+
+  -webkit-box-shadow: 0px 0px 100px -50px rgba(97, 211, 217, 1);
+  -moz-box-shadow: 0px 0px 100px -50px rgba(97, 211, 217, 1);
+  box-shadow: 0px 0px 100px -50px rgba(97, 211, 217, 1);
 }
 .about_info {
   /* max-width: 600px; */
@@ -88,6 +99,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  overflow: hidden; /* Hide scrollbars */
+
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

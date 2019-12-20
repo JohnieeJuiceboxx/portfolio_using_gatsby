@@ -5,7 +5,7 @@ const Projects = () => (
   <div
     id="projects"
     style={{
-      background: `yellow`,
+      background: "slate",
       height: "100vh",
     }}
   >
