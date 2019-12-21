@@ -1,36 +1,28 @@
 import React from "react"
+import { Icon, InlineIcon } from "@iconify/react"
+import linkedinIcon from "@iconify/icons-el/linkedin"
+import squaregithubIcon from "@iconify/icons-whh/squaregithub"
+import instagramIcon from "@iconify/icons-topcoat/instagram"
+
+import emailMultipleOutline from "@iconify/icons-mdi/email-multiple-outline"
 
 export default function Footer() {
   return (
     <div className="social">
       <div className="social-icons">
-        <span
-          class="iconify"
-          data-icon="el:linkedin"
-          data-inline="false"
-        ></span>
+        <Icon icon={linkedinIcon} />
       </div>
 
       <div className="social-icons">
-        <span class="iconify" data-icon="whh:squaregithub" data-inline="false">
-          {" "}
-        </span>
+        <Icon icon={squaregithubIcon} />
       </div>
 
       <div className="social-icons">
-        <span
-          class="iconify"
-          data-icon="topcoat:instagram"
-          data-inline="false"
-        ></span>
+        <Icon icon={instagramIcon} />
       </div>
 
       <div className="social-icons">
-        <span
-          class="iconify"
-          data-icon="mdi:email-multiple"
-          data-inline="false"
-        ></span>
+        <Icon icon={emailMultipleOutline} />
       </div>
     </div>
   )

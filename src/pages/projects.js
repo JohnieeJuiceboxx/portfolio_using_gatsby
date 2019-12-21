@@ -11,7 +11,6 @@ const Projects = () => (
       height: "100vh",
     }}
   >
-    {/* <h1 className="name">This be my projects yao</h1> */}
     <ControlledCarousel />
   </div>
 )

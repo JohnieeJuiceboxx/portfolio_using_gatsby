@@ -1,16 +1,14 @@
 import React, { Component } from "react"
 
+import { Icon, InlineIcon } from "@iconify/react"
+import chevronDown from "@iconify/icons-fa-solid/chevron-down"
+
 export default class Scroller extends Component {
   render() {
     return (
       <div>
         <div className="clickMe">CLICK ME</div>
-        <span
-          id="chevron"
-          class="iconify"
-          data-icon="el-chevron-down"
-          data-inline="false"
-        ></span>
+        <Icon icon={chevronDown} id="chevron" />
       </div>
     )
   }
