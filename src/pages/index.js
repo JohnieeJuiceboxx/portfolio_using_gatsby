@@ -7,6 +7,7 @@ import Projects from "./projects"
 import Experience from "./experience"
 import Scroller from "../components/scroller"
 import image from "../images/streetlights.jpg"
+import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const IndexPage = () => (
@@ -27,7 +28,8 @@ const IndexPage = () => (
         style={{
           width: "100%",
           position: "fixed",
-          top: "0",
+          top: "5%",
+          paddingRight: "5%",
           textAlign: "right",
         }}
       >
@@ -95,11 +97,7 @@ const IndexPage = () => (
           </div>
         </Link>
       </div>
-
-      {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link> */}
+      <Footer />
     </div>
     <About />
     <Projects />

@@ -27,10 +27,10 @@ export default function ControlledCarousel() {
         <Carousel.Caption>
           <h3>Movie Central</h3>
           <p>
-            This modern and minimalist web app built using React utilizes 'The
-            Movie Database' API. To gather all essential movie information. Some
-            notable features are DARK MODE, Movie Search bar, User-based ratings
-            and Google Oauth.
+            This modern and minimalist web app was built using React and it
+            utilizes 'The Movie Database' API to gather all essential movie
+            information. Some notable features are DARK MODE, Movie Search bar,
+            User-based ratings and Google Oauth.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -74,8 +74,9 @@ export default function ControlledCarousel() {
           <p>
             This Progressive Web App (PWA) is a product of a 3 day Hackathon
             within Fullstack Academy. It is an event manager and task assigner
-            that was inspired by the many events I belong to. It has an event
-            calendar and chat functionality.
+            that was inspired by the many events I volunteer in. It has an event
+            calendar and chat functionality so you can stay up to date with your
+            'crew'.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -90,7 +91,9 @@ export default function ControlledCarousel() {
           <h3>Half-Baked goods</h3>
           <p>
             An E-commerce web application that utilizes all the technologies
-            we've learned at Fullstack Academy.
+            we've learned at Fullstack Academy. It is built using React and
+            Redux was used as a centralized state manager. Express was used to
+            create our API routes. Postgres manages the relational database.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

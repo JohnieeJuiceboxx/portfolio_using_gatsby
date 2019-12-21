@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600,900&display=swap");
 
+.social {
+  display: flex;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  transition: 0.4s ease;
+}
+.social-icons {
+  color: #fa4c66;
+  margin-right: 50%;
+}
+.social-icons:hover {
+  color: #61d3d9;
+}
 .navbar1 {
   padding-top: 2em;
   transition: 0.4s ease;
@@ -33,6 +47,8 @@
 .splash3 {
   margin-top: 4em;
   font-family: Helvetica Neue;
+  position: relative;
+  top: 8%;
 }
 .playgroundAR {
   position: relative;
@@ -45,6 +61,30 @@
   top: 15%;
   left: 40%;
   width: 50%;
+}
+ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  list-style-type: none;
+}
+li {
+  /* padding-right: 50%; */
+  width: 300px;
+}
+.exp-main {
+  padding-bottom: 80px;
+}
+.exp-container {
+  display: flex;
+}
+.exp-title {
+  width: 20%;
+}
+#experience {
+  color: white;
+  padding-left: 5%;
+  padding-top: 10%;
 }
 #about {
   color: white;
