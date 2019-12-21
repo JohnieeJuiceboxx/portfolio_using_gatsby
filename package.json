@@ -19,7 +19,8 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-scroll": "^1.7.14"
+    "react-scroll": "^1.7.14",
+    "react-youtube-embed": "^1.0.3"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

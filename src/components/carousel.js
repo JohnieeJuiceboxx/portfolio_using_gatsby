@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Carousel from "react-bootstrap/Carousel"
 import image from "../images/MCfinal.png"
 import image2 from "../images/PGarFinal.png"
+import YouTube from "react-youtube-embed"
 
 export default function ControlledCarousel() {
   const [index, setIndex] = useState(0)
@@ -32,11 +33,21 @@ export default function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          src={image2}
-          className="d-block w-100"
-          style={{ height: "100vh" }}
-        />
+        <div className="playgroundAR">
+          <img
+            src={image2}
+            className="d-block pr-image"
+            style={{ height: "100vh" }}
+          />
+          <div className="presentation">
+            <YouTube
+              id="SBZLzeQz7_U"
+              aspectRatio="56.25%"
+              prependSrc="https://www.youtube.com/embed/"
+              appendSrc=""
+            />
+          </div>
+        </div>
 
         <Carousel.Caption>
           <h3>Playground AR</h3>
