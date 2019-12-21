@@ -8,7 +8,7 @@
   transition: 0.4s ease;
 }
 .social-icons {
-  color: #fa4c66;
+  color: #f91742;
   margin-right: 50%;
 }
 .social-icons:hover {
@@ -120,7 +120,7 @@ li {
   }
 }
 .name {
-  color: #fd2d4d;
+  color: #f91742;
   margin-bottom: 0;
 }
 .noun {
@@ -131,7 +131,7 @@ li {
   height: 300px;
   border-style: solid;
   border-width: 2px;
-  border-color: #fd2d4d;
+  border-color: #f91742;
   overflow: hidden;
   border-radius: 50%;
 

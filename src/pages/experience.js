@@ -32,7 +32,9 @@ const Experience = () => (
           <li>CSS</li>
           <li>ReactJS</li>
           <li>Redux</li>
-          <li>Viro React</li>
+          <li>
+            Viro React <span style={{ fontSize: ".7em" }}>ar/vr</span>
+          </li>
           <li>React Native</li>
           <li>PostgreSQL</li>
           <li>Sequelize</li>
