@@ -1,15 +1,13 @@
 import React from "react"
-// import { Link } from "gatsby"
 import { Link } from "react-scroll"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import About from "./about"
 import Projects from "./projects"
 import Experience from "./experience"
 import Scroller from "../components/scroller"
 import image from "../images/streetlights.jpg"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +23,7 @@ const IndexPage = () => (
       }}
     >
       <div
-        className="navbar"
+        className="navbar1"
         style={{
           width: "100%",
           position: "fixed",

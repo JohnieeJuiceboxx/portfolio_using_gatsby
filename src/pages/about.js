@@ -20,7 +20,7 @@ const About = () => (
     </div>
     <div className="about_info">
       <h1 className="name">John Vitales</h1>
-      <h3 className="noun"> noun: /dʒɑn/ /viˈta.lis/ </h3>
+      <h5 className="noun"> noun: /dʒɑn/ /viˈta.lis/ </h5>
       <p className="about_p">
         I'm a nursing student turned developer. Growing up, I've always been
         into tech, design and music. Soft-modding almost all my electronics from

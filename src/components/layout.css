@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600,900&display=swap");
 
-.navbar {
+.navbar1 {
   padding-top: 2em;
   transition: 0.4s ease;
   font-family: Helvetica Neue;
   font-size: 0.8em;
   color: #fa657b;
+  cursor: pointer;
+  z-index: 9;
 }
-.navbar > .active {
+.navbar1 > .active {
   border-bottom: 1px solid#61d3d9;
   transition: 0.4s ease;
 }
