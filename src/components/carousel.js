@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Carousel from "react-bootstrap/Carousel"
 import image from "../images/MCfinal.png"
+import image2 from "../images/PGarFinal.png"
 
 export default function ControlledCarousel() {
   const [index, setIndex] = useState(0)
@@ -32,8 +33,9 @@ export default function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={image}
-          style={{ height: "100vh", justifyContent: "center" }}
+          src={image2}
+          className="d-block w-100"
+          style={{ height: "100vh" }}
         />
 
         <Carousel.Caption>
