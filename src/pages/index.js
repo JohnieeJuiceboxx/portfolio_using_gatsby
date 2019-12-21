@@ -100,6 +100,7 @@ const IndexPage = () => (
       <Footer />
     </div>
     <About />
+
     <Projects />
     <Experience />
   </Layout>

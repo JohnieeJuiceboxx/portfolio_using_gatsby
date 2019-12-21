@@ -101,6 +101,7 @@ li {
   font-family: Helvetica Neue;
   letter-spacing: 4px;
   top: 5em;
+  text-align: center;
   cursor: pointer;
   animation: bounce 2s infinite;
 }
@@ -120,7 +121,7 @@ li {
   }
 }
 .name {
-  color: #f91742;
+  color: #fa657b;
   margin-bottom: 0;
 }
 .noun {
