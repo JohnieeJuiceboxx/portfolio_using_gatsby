@@ -12,11 +12,9 @@ export default function Footer() {
       </div>
 
       <div className="social-icons">
-        <span
-          class="iconify"
-          data-icon="whh:squaregithub"
-          data-inline="false"
-        ></span>
+        <span class="iconify" data-icon="whh:squaregithub" data-inline="false">
+          {" "}
+        </span>
       </div>
 
       <div className="social-icons">
