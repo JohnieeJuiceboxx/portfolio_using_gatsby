@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import Carousel from "react-bootstrap/Carousel"
 import image from "../images/MCfinal.png"
 import image2 from "../images/PGarFinal.png"
+import image3 from "../images/Qfinal.png"
+import image4 from "../images/HBfinal.png"
 import YouTube from "react-youtube-embed"
 
 export default function ControlledCarousel() {
@@ -62,7 +64,8 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <img
           // className="d-block"
-          src={image}
+          src={image3}
+          className="d-block w-100"
           style={{ height: "100vh" }}
         />
 
@@ -78,11 +81,10 @@ export default function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          // className="d-block"
-          src={image}
+          src={image4}
+          className="d-block w-100"
           style={{ height: "100vh" }}
         />
-        <br />
 
         <Carousel.Caption>
           <h3>Half-Baked goods</h3>
