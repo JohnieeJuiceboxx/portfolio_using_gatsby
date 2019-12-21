@@ -88,6 +88,7 @@ li {
 }
 #about {
   color: white;
+  position: relative;
 }
 .clickMe {
   color: #fa657b;
@@ -97,10 +98,11 @@ li {
   color: #61d3d9;
 }
 .scroller {
-  position: relative;
+  position: absolute;
   font-family: Helvetica Neue;
   letter-spacing: 4px;
-  top: 5em;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   cursor: pointer;
   animation: bounce 2s infinite;
