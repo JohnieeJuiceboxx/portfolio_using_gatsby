@@ -29,7 +29,7 @@ const IndexPage = () => (
           width: "100%",
           position: "fixed",
           top: "5%",
-          paddingRight: "5%",
+          paddingRight: "4%",
           textAlign: "right",
         }}
       >

@@ -17,7 +17,7 @@
 .navbar1 {
   padding-top: 2em;
   transition: 0.4s ease;
-  font-family: Helvetica Neue;
+  font-family: Montserrat;
   font-size: 0.8em;
   color: #fa657b;
   cursor: pointer;
@@ -31,22 +31,23 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  line-height: 3.5em;
   justify-content: center;
   text-align: center;
   color: white;
 }
 .splash1 {
-  font-size: 15em;
+  font-size: 18vw;
 }
 .splash2 {
-  font-size: 12em;
+  font-size: 16vw;
   margin-top: 0px;
   padding-top: 0px;
   line-height: 21px;
 }
 .splash3 {
   margin-top: 4em;
-  font-family: Helvetica Neue;
+  font-family: Montserrat;
   position: relative;
   top: 8%;
 }
@@ -93,16 +94,18 @@ li {
 .clickMe {
   color: #fa657b;
   font-size: 0.3em;
+  line-height: 1em;
 }
 #chevron {
   color: #61d3d9;
 }
 .scroller {
   position: absolute;
-  font-family: Helvetica Neue;
+  font-family: Montserrat;
   letter-spacing: 4px;
   bottom: 0;
   width: 100%;
+  font-size: 1em;
   text-align: center;
   cursor: pointer;
   animation: bounce 2s infinite;
