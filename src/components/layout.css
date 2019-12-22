@@ -5,6 +5,7 @@
   position: fixed;
   bottom: 10%;
   left: 5%;
+  z-index: 9;
   transition: 0.4s ease;
 }
 .social-icons {
@@ -93,7 +94,7 @@ li {
 }
 .clickMe {
   color: #fa657b;
-  font-size: 0.3em;
+  font-size: 70%;
   line-height: 1em;
 }
 #chevron {
@@ -197,12 +198,16 @@ template {
   display: none;
 }
 
-a {
+div a {
+  color: #f91742;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+
 a:active,
-a:hover {
+div a:hover {
+  transition: 0.4s ease;
+  color: #61d3d9;
   outline-width: 0;
 }
 abbr[title] {

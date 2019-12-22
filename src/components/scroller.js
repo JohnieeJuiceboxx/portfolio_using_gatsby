@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "react-scroll"
 import { Icon, InlineIcon } from "@iconify/react"
 import chevronDown from "@iconify/icons-fa-solid/chevron-down"
 
