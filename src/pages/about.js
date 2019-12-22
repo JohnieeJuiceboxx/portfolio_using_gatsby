@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "react-scroll"
 import image from "../images/3d.jpeg"
 import Scroller from "../components/scroller"
+import Footer from "../components/footer"
 
 const About = () => (
   <div
@@ -9,9 +10,7 @@ const About = () => (
     style={{
       background: `#0a171f`,
       height: "100vh",
-
       paddingTop: "15%",
-      // paddingLeft: "20%",
     }}
   >
     <div
@@ -54,6 +53,7 @@ const About = () => (
         <Scroller />
       </div>
     </Link>
+    <Footer />
   </div>
 )
 
