@@ -819,4 +819,15 @@ pre tt:after {
   .about_info {
     padding-right: 3.5%;
   }
+  ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+  .exp-main {
+    padding-bottom: 5px;
+  }
+  .exp-title {
+    min-width: 35%;
+  }
 }
