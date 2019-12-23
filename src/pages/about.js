@@ -14,6 +14,7 @@ const About = () => (
     }}
   >
     <div
+      className="about_container"
       style={{
         display: "flex",
         justifyContent: "center",
@@ -33,9 +34,9 @@ const About = () => (
           flyers for different organizations. I enrolled in to FullStack Academy
           of Code in New York City to get an immersive experience and learn the
           best practices involving software development, a field that I've been
-          curious of for the longest time. I've created many projects while I
-          was at Fullstack Academy one of which is an augmented reality mobile
-          game! When not in front of a computer, I enjoy noodling on my guitar
+          curious of for the longest time. I've created many projects during my
+          time at Fullstack Academy one of which is an augmented reality mobile
+          game! When not in front of the computer, I enjoy noodling on my guitar
           and spending time with my favorite programming partner, Sam, my dog.{" "}
         </p>
       </div>

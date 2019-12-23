@@ -50,9 +50,7 @@ export default function Footer() {
             <Popover.Title as="h3">
               <strong>Let's chat!</strong>
             </Popover.Title>
-            <Popover.Content>
-              <strong>JohnieeJuiceboxx@gmail.com</strong>
-            </Popover.Content>
+            <Popover.Content>JohnieeJuiceboxx@gmail.com</Popover.Content>
           </Popover>
         </Overlay>
       </div>
