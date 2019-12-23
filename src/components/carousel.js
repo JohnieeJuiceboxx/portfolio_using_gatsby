@@ -19,7 +19,7 @@ export default function ControlledCarousel() {
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 pr-image"
           src={image}
           style={{ height: "100vh" }}
           alt="First slide"
@@ -38,7 +38,7 @@ export default function ControlledCarousel() {
         <div className="playgroundAR">
           <img
             src={image2}
-            className="d-block pr-image"
+            className="d-block w-100 pr-image"
             style={{ height: "100vh" }}
           />
           <div className="presentation">
@@ -65,7 +65,7 @@ export default function ControlledCarousel() {
         <img
           // className="d-block"
           src={image3}
-          className="d-block w-100"
+          className="d-block w-100 pr-image"
           style={{ height: "100vh" }}
         />
 
@@ -83,7 +83,7 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <img
           src={image4}
-          className="d-block w-100"
+          className="d-block w-100 pr-image"
           style={{ height: "100vh" }}
         />
 

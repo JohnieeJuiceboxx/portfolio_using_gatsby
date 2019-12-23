@@ -806,5 +806,14 @@ pre tt:after {
     top: 0;
     text-align: center;
     padding-right: 0;
+    margin-left: 2%;
+  }
+  .pr-image {
+    object-fit: cover;
+  }
+  .preentation {
+    top: 24%;
+    left: 10%;
+    width: 79%;
   }
 }
