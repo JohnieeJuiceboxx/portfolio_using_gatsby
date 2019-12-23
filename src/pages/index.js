@@ -9,6 +9,7 @@ import Scroller from "../components/scroller"
 import image from "../images/streetlights.jpg"
 import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
+// import "./styles.sass"
 
 const IndexPage = () => (
   <Layout>
@@ -70,9 +71,19 @@ const IndexPage = () => (
         </Link>{" "}
       </div>
       <div className="splash-div">
-        <h1 className="splash1">Johniee</h1>
-        <h1 className="splash2">Juiceboxx</h1>
-        <p className="splash3">Fullstack Dev | UX/UI Enthusiast | Guitarist</p>
+        <div class="glitch-wrapper">
+          <div class="glitch juicee" data-text="Johniee">
+            Johniee
+          </div>
+          <div class="glitch boxx" data-text="Juiceboxx">
+            Juiceboxx
+          </div>
+          <p className="splash3">
+            Fullstack Dev | UX/UI Enthusiast | Guitarist
+          </p>
+        </div>
+        {/* <h1 className="splash1">Johniee</h1>
+        <h1 className="splash2">Juiceboxx</h1> */}
 
         <Link
           activeClass="active"
