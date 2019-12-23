@@ -23,16 +23,7 @@ const IndexPage = () => (
         backgroundSize: "cover",
       }}
     >
-      <div
-        className="navbar1"
-        style={{
-          width: "100%",
-          position: "fixed",
-          top: "5%",
-          paddingRight: "4%",
-          textAlign: "right",
-        }}
-      >
+      <div className="navbar1" style={{}}>
         <Link
           activeClass="active"
           to="index"
