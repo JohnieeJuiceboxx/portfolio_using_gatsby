@@ -811,9 +811,12 @@ pre tt:after {
   .pr-image {
     object-fit: cover;
   }
-  .preentation {
+  .presentation {
     top: 24%;
     left: 10%;
     width: 79%;
+  }
+  .about_info {
+    padding-right: 3.5%;
   }
 }
