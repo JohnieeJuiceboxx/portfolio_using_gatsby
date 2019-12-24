@@ -5,6 +5,10 @@ import image2 from "../images/PGarFinal.png"
 import image3 from "../images/Qfinal.png"
 import image4 from "../images/HBfinal.png"
 import YouTube from "react-youtube-embed"
+import { Icon, InlineIcon } from "@iconify/react"
+import bxsRightArrow from "@iconify/icons-bx/bxs-right-arrow"
+
+import bxsLeftArrow from "@iconify/icons-bx/bxs-left-arrow"
 
 export default function ControlledCarousel() {
   const [index, setIndex] = useState(0)
@@ -26,8 +30,11 @@ export default function ControlledCarousel() {
         />
         <Carousel.Caption>
           <a href="http://movie-central.herokuapp.com" target="_blank">
-            {" "}
-            <h3>Movie Central</h3>
+            <h3 className="overIcon">
+              <Icon icon={bxsRightArrow} className="arrow" />
+              Movie Central
+              <Icon icon={bxsLeftArrow} className="arrow" />
+            </h3>
           </a>
           <p>
             This modern and minimalist web app was built using React and it
@@ -59,8 +66,12 @@ export default function ControlledCarousel() {
             href="https://github.com/Feisty-Flintstones/Playground"
             target="_blank"
           >
-            {" "}
-            <h3>Playground AR</h3>
+            <h3 className="overIcon">
+              {" "}
+              <Icon icon={bxsRightArrow} className="arrow" />
+              Playground AR
+              <Icon icon={bxsLeftArrow} className="arrow" />
+            </h3>
           </a>
           <p>
             This Augmented Reality puzzle game was created using Viro React
@@ -80,7 +91,10 @@ export default function ControlledCarousel() {
 
         <Carousel.Caption>
           <a href="http://qrew.herokuapp.com/" target="_blank">
-            <h3>Q R E W</h3>
+            <h3 className="overIcon">
+              <Icon icon={bxsRightArrow} className="arrow" />Q R E W
+              <Icon icon={bxsLeftArrow} className="arrow" />
+            </h3>
           </a>
           <p>
             This Progressive Web App (PWA) is a product of a 3 day Hackathon
@@ -103,7 +117,11 @@ export default function ControlledCarousel() {
             href="https://halfbaked-graceshopper.herokuapp.com"
             target="_blank"
           >
-            <h3>Half-Baked goods</h3>
+            <h3 className="overIcon">
+              <Icon icon={bxsRightArrow} className="arrow" />
+              Half-Baked goods
+              <Icon icon={bxsLeftArrow} className="arrow" />
+            </h3>
           </a>
           <p>
             An E-commerce web application that utilizes all the technologies

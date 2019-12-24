@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600,900&display=swap");
 
+.arrow {
+  opacity: 0;
+  transition: 0.4s ease;
+}
+.overIcon:hover .arrow {
+  opacity: 1;
+  color: rgb(255, 51, 81);
+}
+
 .social {
   display: flex;
   position: fixed;
