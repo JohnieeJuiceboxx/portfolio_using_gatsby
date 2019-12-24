@@ -25,7 +25,10 @@ export default function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Movie Central</h3>
+          <a href="http://movie-central.herokuapp.com" target="_blank">
+            {" "}
+            <h3>Movie Central</h3>
+          </a>
           <p>
             This modern and minimalist web app was built using React and it
             utilizes 'The Movie Database' API to gather all essential movie
@@ -52,7 +55,13 @@ export default function ControlledCarousel() {
         </div>
 
         <Carousel.Caption>
-          <h3>Playground AR</h3>
+          <a
+            href="https://github.com/Feisty-Flintstones/Playground"
+            target="_blank"
+          >
+            {" "}
+            <h3>Playground AR</h3>
+          </a>
           <p>
             This Augmented Reality puzzle game was created using Viro React
             which is built upon React Native. Players are to interact with
@@ -70,7 +79,9 @@ export default function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Q R E W</h3>
+          <a href="http://qrew.herokuapp.com/" target="_blank">
+            <h3>Q R E W</h3>
+          </a>
           <p>
             This Progressive Web App (PWA) is a product of a 3 day Hackathon
             within Fullstack Academy. It is an event manager and task assigner
@@ -88,7 +99,12 @@ export default function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Half-Baked goods</h3>
+          <a
+            href="https://halfbaked-graceshopper.herokuapp.com"
+            target="_blank"
+          >
+            <h3>Half-Baked goods</h3>
+          </a>
           <p>
             An E-commerce web application that utilizes all the technologies
             we've learned at Fullstack Academy. It is built using React and
