@@ -22,7 +22,7 @@ const About = () => (
       }}
     >
       <div>
-        <img src={image} className="profile_pic" />
+        <img src={image} className="profile_pic giltch" />
       </div>
       <div className="about_info">
         <h1 className="name">John Vitales</h1>
